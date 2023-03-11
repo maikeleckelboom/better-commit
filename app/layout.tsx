@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
-import GlobalStyles from "./components/GlobalStyles";
-import RootStyleRegistry from "./components/RootStyleRegistry";
+import GlobalStyles from "./style/GlobalStyles";
+import RootStyleRegistry from "./style/RootStyleRegistry";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
